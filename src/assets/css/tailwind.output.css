@@ -590,6 +590,30 @@ video {
   height: auto;
 }
 
+@font-face {
+  font-family: Raleway;
+
+  font-weight: 400;
+
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+
+  font-weight: 700;
+
+  src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+
+  font-weight: 400;
+
+  src: url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
 .container {
   width: 100%;
 }
@@ -10315,6 +10339,14 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-raleway {
+  font-family: Raleway;
+}
+
+.font-quicksand {
+  font-family: Quicksand;
 }
 
 .font-hairline {
@@ -32512,6 +32544,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-raleway {
+    font-family: Raleway;
+  }
+
+  .sm\:font-quicksand {
+    font-family: Quicksand;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -54640,6 +54680,14 @@ video {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-raleway {
+    font-family: Raleway;
+  }
+
+  .md\:font-quicksand {
+    font-family: Quicksand;
   }
 
   .md\:font-hairline {
@@ -76772,6 +76820,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-raleway {
+    font-family: Raleway;
+  }
+
+  .lg\:font-quicksand {
+    font-family: Quicksand;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -98900,6 +98956,14 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-raleway {
+    font-family: Raleway;
+  }
+
+  .xl\:font-quicksand {
+    font-family: Quicksand;
   }
 
   .xl\:font-hairline {
