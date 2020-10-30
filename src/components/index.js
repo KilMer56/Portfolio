@@ -1,13 +1,13 @@
 import '../assets/css/App.css';
 
+import Header from "./header.js"
+
 function App() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <p class="font-raleway font-bold">Portfolio</p>
-        </header>
-      </div>
-    );
-  }
-  
-  export default App;
+  return (
+    <div className="App">
+      <Header/>
+    </div>
+  );
+}
+
+export default App;
