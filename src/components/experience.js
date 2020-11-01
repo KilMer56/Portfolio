@@ -57,7 +57,7 @@ class Experience extends Component {
             <div>
                 <Header title="Experience"/>
                 <div class="p-big font-raleway ">
-                    <div class="flex justify-between items-center">
+                    <div class="flex justify-between items-start">
                         <div class="w-1/4">
                             <div class="flex flex-col text-center text-primary text-2xl">
                                 {renderSideBar(this.state.selectedIndex, this.onClick)}

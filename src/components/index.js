@@ -4,6 +4,7 @@ import Navbar from "./navbar.js"
 import Welcome from "./welcome.js"
 import About from "./about.js"
 import Experience from "./experience.js"
+import Education from "./education.js"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Welcome/>
           <About/>
           <Experience/>
+          <Education/>
         </div>
       </div>
     </div>

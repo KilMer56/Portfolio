@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Master’s Degree",
+        "domain": "Software Engineering",
+        "school": "IMT Atlantique",
+        "dates": "09/2017 - 10/2020",
+        "location": "Nantes, France",
+        "description" : "High-level engineering school, part of the Institut Mines-Télécom, ranked 10 out of 210 in France (GPA : 3.4/4)",
+        "coursework": "Algorithms, data structures, diverse programming paradigm, software architectures, cloud infrastructures, big data, data analysis, Economics, sociology, Mathematics, Physics"
+    },
+    {
+        "title": "Higher National Diploma",
+        "domain": "Computer Science",
+        "school": "IUT Vannes",
+        "dates": "08/2015 - 07/2017",
+        "location": "Vannes, France",
+        "description" : "Vannes University Institute of Technology with a renowned course around computer science. (Top 8 out of 110)",
+        "coursework": "Object-Oriented programming, algorithms, data structures, database systems, operating systems, graph theory, Mathematics, Oral communication, Economics"
+    }
+]
