@@ -1,7 +1,20 @@
-html {
+html, .b-color {
   background-color: #1A1A1A;
+}
+
+.b-color-faded {
+  background-color: rgba(26, 26, 26, 0.9);
 }
 
 .p-big {
   padding: 16rem 0;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  
+  border-left: 5px solid #C4C4C4;
 }
