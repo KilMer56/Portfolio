@@ -1,3 +1,7 @@
 html {
   background-color: #1A1A1A;
 }
+
+.p-big {
+  padding: 16rem 0;
+}

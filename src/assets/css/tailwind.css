@@ -14,6 +14,11 @@
         src: url(../fonts/Raleway/Raleway-Bold.ttf);
     }
     @font-face {
+        font-family: Raleway;
+        font-weight: 800;
+        src: url(../fonts/Raleway/Raleway-ExtraBold.ttf);
+    }
+    @font-face {
         font-family: Quicksand;
         font-weight: 400;
         src: url(../fonts/Quicksand/Quicksand-Regular.ttf);

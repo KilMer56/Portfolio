@@ -1,11 +1,15 @@
 import '../assets/css/App.css';
 
-import Header from "./header.js"
+import Navbar from "./navbar.js"
+import Welcome from "./welcome.js"
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Navbar/>
+      <div class="flex w-full justify-center">
+         <Welcome/>
+      </div>
     </div>
   );
 }
