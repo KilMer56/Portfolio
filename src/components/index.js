@@ -3,6 +3,7 @@ import '../assets/css/App.css';
 import Navbar from "./navbar.js"
 import Welcome from "./welcome.js"
 import About from "./about.js"
+import Experience from "./experience.js"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div class="lg:w-3/4">
           <Welcome/>
           <About/>
+          <Experience/>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import picture from '../assets/images/perso.png';
 function About(){
     return (
         <div>
-            <Header title="About me"></Header>
+            <Header title="About me"/>
             <div class="p-big">
                 <div class="flex justify-between">
                     <div class="w-1/2 font-raleway flex justify-center flex-col">

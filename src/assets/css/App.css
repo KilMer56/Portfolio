@@ -7,7 +7,11 @@ html, .b-color {
 }
 
 .p-big {
-  padding: 16rem 0;
+  padding: 13rem 0;
+}
+
+.border-grey{
+  border-color: #646464;
 }
 
 .arrow-right {
