@@ -59,7 +59,7 @@
             "title": "Discord Bot",
             "dates": "03/2019",
             "type": "Personal",
-            "description": "Network packets sniffing and analysis",
+            "description": "Wild bot for your Discord server (Battleship Game, Youtube player, etc.)",
             "technologies": [
                 "Typescript",
                 "Node.js"
