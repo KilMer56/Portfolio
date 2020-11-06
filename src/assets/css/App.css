@@ -22,3 +22,7 @@ html, .b-color {
   
   border-left: 5px solid #C4C4C4;
 }
+
+.bg-dark {
+  background-color: #242424;
+}

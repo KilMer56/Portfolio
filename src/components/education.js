@@ -7,7 +7,7 @@ function Education(){
     return (
         <div>
             <Header title="Education"/>
-            <div class="p-big">
+            <div class="p-big font-raleway">
                 <div class="flex justify-between text-primary">
                     {educations.map((data) => {
                         return ( 

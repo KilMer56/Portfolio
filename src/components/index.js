@@ -5,6 +5,7 @@ import Welcome from "./welcome.js"
 import About from "./about.js"
 import Experience from "./experience.js"
 import Education from "./education.js"
+import Projects from "./projects.js"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <About/>
           <Experience/>
           <Education/>
+          <Projects/>
         </div>
       </div>
     </div>

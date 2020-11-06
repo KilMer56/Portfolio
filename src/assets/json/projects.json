@@ -1,0 +1,92 @@
+{
+    "big": [
+        {
+            "title": "Community Challenge App",
+            "dates": "Present",
+            "type": "Personal",
+            "description": "Mobile app based on a community system around self-improvement",
+            "technologies": [
+                "Flutter",
+                "Firebase (GCP)"
+            ]
+        },
+        {
+            "title": "Edge Computing research project",
+            "dates": "11/2019",
+            "type": "IMT Atlantique",
+            "description": "Network TCP/UDP packets sniffing and analysis around Fog computing",
+            "technologies": [
+                "Python",
+                "ElasticSearch",
+                "Kibana"
+            ]
+        },
+        {
+            "title": "Marvel Heroes",
+            "dates": "02/2019",
+            "type": "IMT Atlantique",
+            "description": "Completion of an ElasticSearch/MongoDB/Redis school project",
+            "technologies": [
+                "Java",
+                "ElasticSearch",
+                "MongoDB",
+                "Redis"
+            ]
+        }
+    ],
+    "small": [
+        {
+            "title": "Personal Portfolio",
+            "dates": "10/2020",
+            "type": "Personal",
+            "description": "Simple Portfolio that describes my experiences in Software development",
+            "technologies": [
+                "React.js",
+                "Tailwind"
+            ]
+        },
+        {
+            "title": "Youtube/Spotify bridge",
+            "dates": "04/2019",
+            "type": "Personal",
+            "description": "Script that converts a Youtube video playlist into a Spotify music playlist",
+            "technologies": [
+                "Python",
+                "Docker"
+            ]
+        },
+        {
+            "title": "Discord Bot",
+            "dates": "03/2019",
+            "type": "Personal",
+            "description": "Network packets sniffing and analysis",
+            "technologies": [
+                "Typescript",
+                "Node.js"
+            ]
+        },
+        {
+            "title": "Sensor data generator",
+            "dates": "03/2019",
+            "type": "Personal",
+            "description": "Generator of fake and random data to mock sensors",
+            "technologies": [
+                "Python"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "title": "IMT Hash Code",
+            "date": "05/2019",
+            "description": "Hashcode solution for the traveling salesman problem using genetic algorithm",
+            "rank": "2nd out of 11"
+        },
+        {
+            "title": "Google Hash Code",
+            "date": "02/2019",
+            "description": "Algorithm that builds the most interesting slideshow from slide keywords",
+            "rank": "3248th out of 7000+"
+        }
+    ]
+}
