@@ -7,6 +7,7 @@ import Experience from "./experience.js"
 import Education from "./education.js"
 import Projects from "./projects.js"
 import MoreInfo from "./more.js"
+import Contact from "./contact.js"
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Education/>
           <Projects/>
           <MoreInfo/>
+          <Contact/>
+          <p class="text-grey text-center mb-8">Copyright @ 2020 - Killian MER</p>
         </div>
       </div>
     </div>
