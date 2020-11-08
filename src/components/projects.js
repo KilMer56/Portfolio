@@ -4,7 +4,7 @@ import projects from "../assets/json/projects.json"
 function renderProjectCards(projects, printDetails=false){
     return projects.map((data) => {
         return ( 
-            <div class="p-5 bg-dark cursor-pointer transition-shadow duration-500 ease-in-out hover:shadow-2xl" style={{width: printDetails ? "32%" : "24%"}}>
+            <div class="p-5 bg-dark cursor-pointer transition-shadow duration-300 ease-in-out hover:shadow-2xl" style={{width: printDetails ? "32%" : "24%"}}>
                 <p class="font-bold text-xl">{data.title}</p>
                 {printDetails && <p class="mt-2"><span class="mr-4">{data.type}</span><span class="text-grey">{data.dates}</span></p>}
                 <p class="text-grey-2 py-4">{data.description}</p>

@@ -6,6 +6,7 @@ import About from "./about.js"
 import Experience from "./experience.js"
 import Education from "./education.js"
 import Projects from "./projects.js"
+import MoreInfo from "./more.js"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Experience/>
           <Education/>
           <Projects/>
+          <MoreInfo/>
         </div>
       </div>
     </div>
