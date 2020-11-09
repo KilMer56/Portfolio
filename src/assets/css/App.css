@@ -7,7 +7,19 @@ html, .b-color {
 }
 
 .p-big {
-  padding: 13rem 0;
+  padding: 8rem 0;
+}
+
+@media (min-width: 780px) {
+  .p-big {
+    padding: 10rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .p-big {
+    padding: 13rem 0;
+  }
 }
 
 .border-grey{

@@ -14,7 +14,7 @@ function App() {
     <div class="App w-full">
       <Navbar/>
       <div class="flex w-full justify-center">
-        <div class="lg:w-3/4">
+        <div class="w-full px-8 lg:px-0 lg:w-3/4">
           <Welcome/>
           <About/>
           <Experience/>

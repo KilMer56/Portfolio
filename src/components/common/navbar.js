@@ -29,10 +29,7 @@ class Navbar extends Component{
                             'hidden': !this.state.showMenu,
                             'w-full lg:w-auto lg:inline-block': true
                         })}>
-                        <div className={classNames({
-                            'hidden': !this.state.showMenu,
-                            'md:inline-block': true
-                        })} class="w-full block flex-grow lg:flex lg:w-auto justify-center">
+                        <div class="w-full block flex-grow lg:flex lg:w-auto justify-center">
                             <div class="text-xl md:text-base font-raleway text-grey-2 lg:flex-grow">
                                 <a href="#about" class="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8">
                                     About me
