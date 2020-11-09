@@ -1,6 +1,6 @@
 import '../assets/css/App.css';
 
-import Navbar from "./navbar.js"
+import Navbar from "./common/navbar.js"
 import Welcome from "./welcome.js"
 import About from "./about.js"
 import Experience from "./experience.js"
@@ -11,7 +11,7 @@ import Contact from "./contact.js"
 
 function App() {
   return (
-    <div className="App">
+    <div class="App w-full">
       <Navbar/>
       <div class="flex w-full justify-center">
         <div class="lg:w-3/4">

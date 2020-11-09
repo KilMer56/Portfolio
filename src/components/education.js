@@ -1,8 +1,6 @@
 import Header from "./common/header.js";
 import educations from "../assets/json/educations.json"
 
-
-
 function Education(){
     return (
         <div>
