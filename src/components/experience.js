@@ -23,10 +23,10 @@ function renderExperience(data) {
         <div class="text-primary mt-12 lg:mt-0">
             <p><span class="font-bold text-2xl pr-4">{data.title}</span><span class="block lg:inline-block text-grey text-xl">{data.company}</span></p>
             <p class="mt-2 mb-12"><span class="pr-4">{data.dates}</span><span class="text-grey">{data.location}</span></p>
-            <ul>
+            <ul class="text-justify">
                 {data.facts.map((fact) => {
                     return (
-                        <li class="text-grey-2 mb-4 text-justify">{fact}</li>
+                        <li class="text-grey-2 mb-4">{fact}</li>
                     )
                 })}
             </ul>
