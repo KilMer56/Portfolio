@@ -11,10 +11,10 @@ import Contact from "./contact.js"
 
 function App() {
   return (
-    <div class="App w-full">
+    <div className="App w-full">
       <Navbar/>
-      <div class="flex w-full justify-center">
-        <div class="w-full px-8 lg:px-0 lg:w-3/4">
+      <div className="flex w-full justify-center">
+        <div className="w-full px-8 lg:px-0 lg:w-3/4">
           <Welcome/>
           <About/>
           <Experience/>
@@ -22,7 +22,7 @@ function App() {
           <Projects/>
           <MoreInfo/>
           <Contact/>
-          <p class="text-grey text-center mb-8">Copyright @ 2020 - Killian MER</p>
+          <p className="text-grey text-center mb-8">Copyright @ 2020 - Killian MER</p>
         </div>
       </div>
     </div>

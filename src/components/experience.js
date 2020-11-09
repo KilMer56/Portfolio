@@ -12,6 +12,7 @@ function renderSideBar(currentIndex, onClickListener) {
                 'border-white': index === currentIndex,
                 'text-grey border-grey': index !== currentIndex
                 })}
+                key={data.company}
                 onClick={() => onClickListener(index)}>
                 {data.company}</div>
         )
@@ -20,13 +21,13 @@ function renderSideBar(currentIndex, onClickListener) {
 
 function renderExperience(data) {
     return (
-        <div class="text-primary mt-12 lg:mt-0">
-            <p><span class="font-bold text-2xl pr-4">{data.title}</span><span class="block lg:inline-block text-grey text-xl">{data.company}</span></p>
-            <p class="mt-2 mb-12"><span class="pr-4">{data.dates}</span><span class="text-grey">{data.location}</span></p>
-            <ul class="text-justify">
+        <div className="text-primary mt-12 lg:mt-0">
+            <p><span className="font-bold text-2xl pr-4">{data.title}</span><span className="block lg:inline-block text-grey text-xl">{data.company}</span></p>
+            <p className="mt-2 mb-12"><span className="pr-4">{data.dates}</span><span className="text-grey">{data.location}</span></p>
+            <ul className="text-justify">
                 {data.facts.map((fact) => {
                     return (
-                        <li class="text-grey-2 mb-4">{fact}</li>
+                        <li key={fact} className="text-grey-2 mb-4">{fact}</li>
                     )
                 })}
             </ul>
@@ -51,14 +52,14 @@ class Experience extends Component {
         return (
             <div>
                 <Header title="Experience"/>
-                <div class="p-big font-raleway ">
-                    <div class="flex flex-col lg:flex-row justify-between items-start">
-                        <div class="w-full lg:w-1/4">
-                            <div class="whitespace-no-wrap overflow-x-auto flex lg:flex-col text-center text-primary text-2xl">
+                <div className="p-big font-raleway ">
+                    <div className="flex flex-col lg:flex-row justify-between items-start">
+                        <div className="w-full lg:w-1/4">
+                            <div className="whitespace-no-wrap overflow-x-auto flex lg:flex-col text-center text-primary text-2xl">
                                 {renderSideBar(this.state.selectedIndex, this.onClick)}
                             </div>
                         </div>
-                        <div class="w-full lg:w-3/4 px-0 lg:px-16">
+                        <div className="w-full lg:w-3/4 px-0 lg:px-16">
                             {renderExperience(experiences[this.state.selectedIndex])}                            
                         </div>
                     </div>
