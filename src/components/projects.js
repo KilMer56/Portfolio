@@ -16,7 +16,7 @@ function renderProjectCards(projects, printDetails=false){
     return projects.map((data) => {
         if(data.link){
             return (
-                <a href={data.link} target="_blank" key={data.title} className="w-full md:w-1/2 lg:w-1/3 mb-4 md:pr-4 cursor-pointer transition-shadow duration-300 ease-in-out hover:shadow-2xl">
+                <a href={data.link} target="_blank" rel="noreferrer" key={data.title} className="w-full md:w-1/2 lg:w-1/3 mb-4 md:pr-4 cursor-pointer transition-shadow duration-300 ease-in-out hover:shadow-2xl">
                     {renderProjectContent(data, printDetails)}
                 </a>
             )
