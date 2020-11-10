@@ -10,7 +10,7 @@ import MoreInfo from "./more.js"
 import Contact from "./contact.js"
 
 import { Element } from 'react-scroll'
-import { Fade } from 'react-reveal';
+import Fade from 'react-reveal/Fade';
 
 function App() {
   return (

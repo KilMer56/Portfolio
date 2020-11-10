@@ -22,6 +22,10 @@ html, .b-color {
   }
 }
 
+.border-1 {
+  border-width: 1px;
+}
+
 .border-grey{
   border-color: #646464;
 }

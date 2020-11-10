@@ -1,4 +1,5 @@
 import logo from '../../assets/images/logo_white.png';
+import pdf from '../../assets/pdf/Killian_MER__CV.pdf';
 
 import { Component } from "react";
 import classNames from "classnames";
@@ -35,46 +36,47 @@ class Navbar extends Component{
                             <div className="text-xl md:text-base font-raleway text-grey-2 lg:flex-grow">
                                 <Link
                                     activeClass="active"
-                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="about_me"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     About me
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="experience"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Experience
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="education"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Education
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="projects"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Projects
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="more_info"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     More info
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="contact"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Contact
                                 </Link>
+                                <a rel="noreferrer" className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary border-1 border-grey hover:border-white px-2 py-1" href={pdf} target="_blank">Resume</a>
                             </div>
                         </div>
                     </div>

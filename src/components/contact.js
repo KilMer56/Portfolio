@@ -1,4 +1,5 @@
 import Header from "./common/header.js";
+import pdf from '../assets/pdf/Killian_MER__CV.pdf';
 
 function Contact(){
     return (
@@ -12,6 +13,7 @@ function Contact(){
                     <span className="font-bold mr-6">Links</span>
                     <a className="text-grey-2 mr-6" href="https://www.linkedin.com/in/killianmer/">Linkedin</a>
                     <a className="text-grey-2 mr-6" href="https://github.com/KilMer56">Github</a>
+                    <a rel="noreferrer" className="text-grey-2" href={pdf} target="_blank">Resume</a>
                 </div>
             </div>
         </div>
