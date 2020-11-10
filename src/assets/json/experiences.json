@@ -9,7 +9,7 @@
             "(POC) Built a real time factory machines monitoring architecture to prevent failures (InfluxDB, Python, Grafana)",
             "Integrated Salesforce Customer Relationship Management solutions for various customers such as non-profit organisations, start-up and big telecommunication companies (Lightning, Apex)",
             "Designed and built a mobile app allowing the 1000 participants of the 'Salon de la Data' event of Nantes to interact among each other (Flutter)",
-            "Rebuilt an entire web portal and integrating cloud-based software components for a local non-profit organisation reducing the global load time of the website and the search engine by 50% (Symfony, Algolia)"
+            "Rebuilt an entire web portal and integrated cloud-based software components for a local non-profit organisation reducing the global load time of the website and the search engine by 50% (Symfony, Algolia)"
         ]
     },
     {
@@ -20,7 +20,7 @@
         "facts": [
             "Designed and developed the new interface of a web platform for fund managers using SSR (Nuxt.Js, Ant Design)",
             "Implemented core services and generic features (Nest.js, Typescript, Express.js)",
-            "Set up an authentication system with permission management and a security process for documents (Vault, JWT)",
+            "Set up an authentication system with permission management and a security process for legal documents (Vault, JWT)",
             "Participated in the product definition and the hiring process"
         ]
     },

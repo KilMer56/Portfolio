@@ -9,7 +9,7 @@ function About(){
                 <div className="flex justify-between flex-col lg:flex-row">
                     <div className="w-full lg:w-1/2 font-raleway flex justify-center flex-col">
                         <p className="text-primary text-justify">Based in France, I've always had a special interest in computer science and design. Recently graduated from a High-level engineering school (ranked 10 out of 210), I had the opportunity to work for the last 3 years on different technologies and for various customers.</p>
-                        <p className="text-primary text-justify mt-4">Curious about what I'm going to learn next, I'm always looking for new experiences, particularly abroad. I'm actually looking for a Front-End/FullStack software engineer position for January 2021.</p>
+                        <p className="text-primary text-justify mt-4">Curious about what I'm going to learn next, I'm always looking for new experiences, particularly abroad. I'm actually looking for a FullStack software engineer position for January 2021 in Amsterdam.</p>
                         <p className="text-primary text-justify mt-8">Here are a few technologies I've been working with recently :</p>
                         <div className="grid gap-4 grid-cols-3 font-raleway mt-8">
                             <div className="flex flex-row items-center 979797">
