@@ -1,18 +1,33 @@
 import Header from "./common/header.js";
 import projects from "../assets/json/projects.json"
 
+function renderProjectContent(data, printDetails){
+    return (
+        <div className="h-full p-5 bg-dark">
+            <p className="font-bold text-xl">{data.title}</p>
+            {printDetails && <p className="mt-2"><span className="mr-4">{data.type}</span><span className="text-grey">{data.dates}</span></p>}
+            <p className="text-grey-2 py-4 break-words">{data.description}</p>
+            <p className="text-grey break-words">{data.technologies.map((data) => <span key={data} className="mr-4">{data}</span>)}</p>
+        </div>
+    )
+}
+
 function renderProjectCards(projects, printDetails=false){
     return projects.map((data) => {
-        return ( 
-            <div key={data.title} className="w-full md:w-1/2 lg:w-1/3 mb-4 md:pr-4">
-                <div className="h-full p-5 bg-dark cursor-pointer transition-shadow duration-300 ease-in-out hover:shadow-2xl">
-                    <p className="font-bold text-xl">{data.title}</p>
-                    {printDetails && <p className="mt-2"><span className="mr-4">{data.type}</span><span className="text-grey">{data.dates}</span></p>}
-                    <p className="text-grey-2 py-4 break-words">{data.description}</p>
-                    <p className="text-grey break-words">{data.technologies.map((data) => <span key={data} className="mr-4">{data}</span>)}</p>
+        if(data.link){
+            return (
+                <a href={data.link} target="_blank" key={data.title} className="w-full md:w-1/2 lg:w-1/3 mb-4 md:pr-4 cursor-pointer transition-shadow duration-300 ease-in-out hover:shadow-2xl">
+                    {renderProjectContent(data, printDetails)}
+                </a>
+            )
+        }
+        else {
+            return (
+                <div key={data.title} className="w-full md:w-1/2 lg:w-1/3 mb-4 md:pr-4 transition-shadow duration-300 ease-in-out hover:shadow-2xl">
+                    {renderProjectContent(data, printDetails)}
                 </div>
-            </div>
-        )
+            )
+        }
     })
 }
 

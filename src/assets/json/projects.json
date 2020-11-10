@@ -25,6 +25,7 @@
             "title": "Marvel Heroes",
             "dates": "02/2019",
             "type": "IMT Atlantique",
+            "link": "https://github.com/KilMer56/IMT-MarvelHeroes",
             "description": "Completion of an ElasticSearch/MongoDB/Redis school project",
             "technologies": [
                 "Java",
@@ -39,6 +40,7 @@
             "title": "Personal Portfolio",
             "dates": "10/2020",
             "type": "Personal",
+            "link": "https://github.com/KilMer56/Portfolio",
             "description": "Simple Portfolio that describes my experiences in Software development",
             "technologies": [
                 "React.js",
@@ -49,6 +51,7 @@
             "title": "Youtube/Spotify bridge",
             "dates": "04/2019",
             "type": "Personal",
+            "link": "https://github.com/KilMer56/YoutubeSpotifyBridge",
             "description": "Script that converts a Youtube video playlist into a Spotify music playlist",
             "technologies": [
                 "Python",
@@ -59,6 +62,7 @@
             "title": "Discord Bot",
             "dates": "03/2019",
             "type": "Personal",
+            "link": "https://github.com/KilMer56/BionixDiscordBot",
             "description": "Wild bot for your Discord server (Battleship Game, Youtube player, etc.)",
             "technologies": [
                 "Typescript",

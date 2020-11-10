@@ -5,8 +5,8 @@
         "dates": "09/2017 - 10/2020",
         "location": "Nantes, France",
         "facts": [
-            "Built a real time factory machines monitoring architecture to prevent failures (InfluxDB, Python, Grafana)",
             "Implemented a classification model in order to reduce the patent selection time by around 80% (Python)",
+            "(POC) Built a real time factory machines monitoring architecture to prevent failures (InfluxDB, Python, Grafana)",
             "Integrated Salesforce Customer Relationship Management solutions for various customers such as non-profit organisations, start-up and big telecommunication companies (Lightning, Apex)",
             "Designed and built a mobile app allowing the 1000 participants of the 'Salon de la Data' event of Nantes to interact among each other (Flutter)",
             "Rebuilt an entire web portal and integrating cloud-based software components for a local non-profit organisation reducing the global load time of the website and the search engine by 50% (Symfony, Algolia)"
@@ -19,8 +19,9 @@
         "location": "London, United Kingdom",
         "facts": [
             "Designed and developed the new interface of a web platform for fund managers using SSR (Nuxt.Js, Ant Design)",
-            "Participated in the product definition and the implementation of services (Nest.js, Typescript, Express.js)",
-            "Customer Relationship Management solutions for various customers such as non-profit organisations, start-up and big telecommunication companies (Lightning, Apex)"
+            "Implemented core services and generic features (Nest.js, Typescript, Express.js)",
+            "Set up an authentication system with permission management and a security process for documents (Vault, JWT)",
+            "Participated in the product definition and the hiring process"
         ]
     },
     {
@@ -30,6 +31,8 @@
         "location": "Vannes, France",
         "facts": [
             "Developed a website whose aim was to put in contact health professionals (MongoDB, Express.js, AngularJS and Node.js)",
+            "Defined the final product alongside different professionals",
+            "Organized the work inside the team (6 persons) and tracked the evolution of the solution",
             "Designed the visual identity of the project and organized conferences to promote it"
         ]
     }
