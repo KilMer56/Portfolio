@@ -9,6 +9,8 @@ import Projects from "./projects.js"
 import MoreInfo from "./more.js"
 import Contact from "./contact.js"
 
+import { Element } from 'react-scroll'
+
 function App() {
   return (
     <div className="App w-full">
@@ -16,12 +18,24 @@ function App() {
       <div className="flex w-full justify-center">
         <div className="w-full px-8 lg:px-0 lg:w-3/4">
           <Welcome/>
-          <About/>
-          <Experience/>
-          <Education/>
-          <Projects/>
-          <MoreInfo/>
-          <Contact/>
+          <Element name="about_me">
+            <About/>
+          </Element>
+          <Element name="experience">
+            <Experience/>
+          </Element>
+          <Element name="education">
+            <Education/>
+          </Element>
+          <Element name="projects">
+            <Projects/>
+          </Element>
+          <Element name="more_info">
+            <MoreInfo/>
+          </Element>
+          <Element name="contact">
+            <Contact/>
+          </Element>
           <p className="text-grey text-center mb-8">Copyright @ 2020 - Killian MER</p>
         </div>
       </div>

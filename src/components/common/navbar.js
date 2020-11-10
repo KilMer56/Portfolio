@@ -3,6 +3,8 @@ import logo from '../../assets/images/logo_white.png';
 import { Component } from "react";
 import classNames from "classnames";
 
+import { Link } from 'react-scroll'
+
 class Navbar extends Component{
     constructor(props) {
         super(props);
@@ -31,24 +33,48 @@ class Navbar extends Component{
                         })}>
                         <div className="w-full block flex-grow lg:flex lg:w-auto justify-center">
                             <div className="text-xl md:text-base font-raleway text-grey-2 lg:flex-grow">
-                                <a href="#about" className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8">
+                                <Link
+                                    activeClass="active"
+                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    to="about_me"
+                                    spy={true} smooth={true} offset={-100} duration={500}>
                                     About me
-                                </a>
-                                <a href="#experience" className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8">
+                                </Link>
+                                <Link
+                                    activeClass="active"
+                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    to="experience"
+                                    spy={true} smooth={true} offset={-100} duration={500}>
                                     Experience
-                                </a>
-                                <a href="#education" className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8">
+                                </Link>
+                                <Link
+                                    activeClass="active"
+                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    to="education"
+                                    spy={true} smooth={true} offset={-100} duration={500}>
                                     Education
-                                </a>
-                                <a href="#projects" className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8">
+                                </Link>
+                                <Link
+                                    activeClass="active"
+                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    to="projects"
+                                    spy={true} smooth={true} offset={-100} duration={500}>
                                     Projects
-                                </a>
-                                <a href="#more" className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8">
+                                </Link>
+                                <Link
+                                    activeClass="active"
+                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    to="more_info"
+                                    spy={true} smooth={true} offset={-100} duration={500}>
                                     More info
-                                </a>
-                                <a href="#contact" className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary">
+                                </Link>
+                                <Link
+                                    activeClass="active"
+                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    to="contact"
+                                    spy={true} smooth={true} offset={-100} duration={500}>
                                     Contact
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

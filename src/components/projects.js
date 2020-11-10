@@ -22,11 +22,11 @@ function Projects(){
             <Header title="Projects"/>
             <div className="p-big font-raleway text-primary">
                 <p className="font-bold text-3xl text-center mb-8">Key projects</p>
-                <div className="flex md:flex-wrap justify-center flex-col md:flex-row py-4">
+                <div className="flex md:flex-wrap flex-col md:flex-row py-4">
                     {renderProjectCards(projects.big, true)}
                 </div>
                 <p className="font-bold md:flex-wrap text-3xl text-center m-8">Small personal projects</p>
-                <div className="flex flex-col md:flex-row justify-between py-4">
+                <div className="flex md:flex-wrap flex-col md:flex-row py-4">
                     {renderProjectCards(projects.small)}
                 </div>
                 <p className="font-bold text-3xl text-center m-8">Events</p>

@@ -64,15 +64,6 @@
                 "Typescript",
                 "Node.js"
             ]
-        },
-        {
-            "title": "Sensor data generator",
-            "dates": "03/2019",
-            "type": "Personal",
-            "description": "Generator of fake and random data to mock sensors",
-            "technologies": [
-                "Python"
-            ]
         }
     ],
     "events": [
