@@ -19,7 +19,7 @@ class Navbar extends Component{
 
     render(){
         return (
-            <div className="fixed w-full b-color-faded">
+            <div className="fixed z-10 w-full b-color-faded">
                 <nav className="flex items-center justify-between flex-wrap px-6 py-2">
                     <img className="h-16" alt="" src={logo}/>
                     <div className="block lg:hidden">
@@ -35,42 +35,42 @@ class Navbar extends Component{
                             <div className="text-xl md:text-base font-raleway text-grey-2 lg:flex-grow">
                                 <Link
                                     activeClass="active"
-                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="about_me"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     About me
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="experience"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Experience
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="education"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Education
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="projects"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Projects
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="more_info"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     More info
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="block mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
                                     to="contact"
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Contact

@@ -10,6 +10,7 @@ import MoreInfo from "./more.js"
 import Contact from "./contact.js"
 
 import { Element } from 'react-scroll'
+import { Fade } from 'react-reveal';
 
 function App() {
   return (
@@ -19,22 +20,22 @@ function App() {
         <div className="w-full px-8 lg:px-0 lg:w-3/4">
           <Welcome/>
           <Element name="about_me">
-            <About/>
+            <Fade><About/></Fade>
           </Element>
           <Element name="experience">
-            <Experience/>
+            <Fade><Experience/></Fade>
           </Element>
           <Element name="education">
-            <Education/>
+            <Fade><Education/></Fade>
           </Element>
           <Element name="projects">
-            <Projects/>
+            <Fade><Projects/></Fade>
           </Element>
           <Element name="more_info">
-            <MoreInfo/>
+            <Fade><MoreInfo/></Fade>
           </Element>
           <Element name="contact">
-            <Contact/>
+            <Fade><Contact/></Fade>
           </Element>
           <p className="text-grey text-center mb-8">Copyright @ 2020 - Killian MER</p>
         </div>
