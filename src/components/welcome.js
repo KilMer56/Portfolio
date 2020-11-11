@@ -6,7 +6,7 @@ function Welcome() {
                 <div className="py-3">
                 <span className="text-background bg-white font-extrabold text-5xl md:text-6xl py-1 px-2">Killian Mer</span>
                 </div>
-                <p className="text-grey font-bold text-3xl md:text-4xl">I'm a curious Software Engineer.</p>
+                <p className="gradient font-bold text-3xl md:text-4xl">I'm a curious Software Engineer.</p>
             </div>
         </div>
     );

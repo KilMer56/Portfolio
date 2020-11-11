@@ -36,9 +36,37 @@ html, .b-color {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   
-  border-left: 5px solid #C4C4C4;
+  border-left: 5px solid;
+}
+
+.arrow-teal {
+  border-left-color:  #12c2e9;
+}
+
+.arrow-purple {
+  border-left-color:  #c471ed;
+}
+
+.arrow-pink {
+  border-left-color:  #f64f59;
 }
 
 .bg-dark {
   background-color: #242424;
+}
+
+.gradient {
+  background: linear-gradient(127deg, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-x-gradient {
+  border-image-source: linear-gradient(to right, #12c2e9, #c471ed,#f64f59);
+  border-image-slice: 1;
+}
+
+.border-y-gradient {
+  border-image-source: linear-gradient(to bottom, #12c2e9, #c471ed,#f64f59);
+  border-image-slice: 1;
 }

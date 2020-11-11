@@ -21,9 +21,9 @@ function renderSideBar(currentIndex, onClickListener) {
 
 function renderExperience(data) {
     return (
-        <div className="text-primary mt-12 lg:mt-0">
-            <p><span className="font-bold text-2xl pr-4">{data.title}</span><span className="block lg:inline-block text-grey text-xl">{data.company}</span></p>
-            <p className="mt-2 mb-12"><span className="pr-4">{data.dates}</span><span className="text-grey">{data.location}</span></p>
+        <div className="mt-12 lg:mt-0">
+            <p><span className="gradient font-bold text-2xl pr-4">{data.title}</span><span className="block lg:inline-block text-grey text-xl">{data.company}</span></p>
+            <p className="mt-2 mb-12"><span className="text-primary pr-4">{data.dates}</span><span className="text-grey">{data.location}</span></p>
             <ul className="text-justify">
                 {data.facts.map((fact) => {
                     return (

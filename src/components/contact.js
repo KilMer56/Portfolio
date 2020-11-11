@@ -6,7 +6,7 @@ function Contact(){
         <div>
             <Header title="Contact"/>
             <div className="py-24 font-raleway text-primary">
-                <p className="text-center text-3xl font-bold mb-8">Let's Get in Touch !</p>
+                <p className="text-center text-3xl font-bold mb-8"><span className="gradient">Let's Get in Touch !</span></p>
                 <div className="flex flex-col md:flex-row justify-center items-center md:items-start text-xl">
                     <span className="font-bold md:mr-6">Email address :</span>
                     <span className="text-grey-2 mb-8 md:mb-0 md:mr-16">mer.killian56@gmail.com</span>

@@ -24,7 +24,7 @@ class Navbar extends Component{
                 <nav className="flex items-center justify-between flex-wrap px-6 py-2">
                     <img className="h-16" alt="" src={logo}/>
                     <div className="block lg:hidden">
-                        <button onClick={this.showOrHideMenu} className="flex items-center px-3 py-2 border rounded text-grey-2 border-grey-2">
+                        <button onClick={this.showOrHideMenu} className="flex items-center px-3 py-2 border rounded text-grey-2 border-grey-2 mr-2">
                             <svg className="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                         </button>
                     </div>
@@ -50,10 +50,11 @@ class Navbar extends Component{
                                 </Link>
                                 <Link
                                     activeClass="active"
-                                    className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary mr-8"
+                                    className="block cursor-pointer mt-6 lg:inline-block lg:mt-0 mr-8"
                                     to="education"
                                     spy={true} smooth={true} offset={-100} duration={500}>
-                                    Education
+                                    
+                                    <span className="transition duration-300 ease-in-out hover:text-primary">Education</span>
                                 </Link>
                                 <Link
                                     activeClass="active"
@@ -76,7 +77,7 @@ class Navbar extends Component{
                                     spy={true} smooth={true} offset={-100} duration={500}>
                                     Contact
                                 </Link>
-                                <a rel="noreferrer" className="transition duration-300 ease-in-out block cursor-pointer mt-6 lg:inline-block lg:mt-0 hover:text-primary border-1 border-grey hover:border-white px-2 py-1" href={pdf} target="_blank">Resume</a>
+                                <a rel="noreferrer" className="block cursor-pointer font-bold mt-6 lg:inline-block lg:mt-0 gradient border-1 border-x-gradient px-2 py-1" href={pdf} target="_blank">Resume</a>
                             </div>
                         </div>
                     </div>

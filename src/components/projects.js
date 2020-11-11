@@ -36,15 +36,15 @@ function Projects(){
         <div>
             <Header title="Projects"/>
             <div className="p-big font-raleway text-primary">
-                <p className="font-bold text-3xl text-center mb-8">Key projects</p>
+                <p className="font-bold text-3xl text-center mb-8"><span className="gradient">Key projects</span></p>
                 <div className="flex md:flex-wrap flex-col md:flex-row py-4">
                     {renderProjectCards(projects.big, true)}
                 </div>
-                <p className="font-bold md:flex-wrap text-3xl text-center m-8">Small personal projects</p>
+                <p className="font-bold md:flex-wrap text-3xl text-center m-8"><span className="gradient">Small personal projects</span></p>
                 <div className="flex md:flex-wrap flex-col md:flex-row py-4">
                     {renderProjectCards(projects.small)}
                 </div>
-                <p className="font-bold text-3xl text-center m-8">Events</p>
+                <p className="font-bold text-3xl text-center m-8"><span className="gradient">Events</span></p>
                 <div className="flex flex-col md:flex-row justify-between py-4">
                     {projects.events.map((data) => {
                         return ( 

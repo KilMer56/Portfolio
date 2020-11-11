@@ -11,7 +11,7 @@ function Education(){
                         return ( 
                             <div key={data.school} className="w-full lg:w-1/2 lg:px-4 mb-12 lg:mb-0">
                                 <p><span className="font-bold text-2xl pr-4">{data.title}</span><span className="block lg:inline-block text-grey text-xl">{data.domain}</span></p>
-                                <p className="text-2xl">{data.school}</p>
+                                <p className="text-2xl"><span className="gradient">{data.school}</span></p>
                                 <p className="mt-2"><span className="pr-4">{data.dates}</span><span className="text-grey">{data.location}</span></p>
                                 <div className="text-justify">
                                     <p className="text-grey-2 py-8">{data.description}</p>
