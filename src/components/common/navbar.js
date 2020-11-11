@@ -1,5 +1,5 @@
 import logo from '../../assets/images/logo_white.png';
-import pdf from '../../assets/pdf/Killian_MER__CV.pdf';
+import pdf from '../../assets/pdf/Killian_MER_CV.pdf';
 
 import { Component } from "react";
 import classNames from "classnames";

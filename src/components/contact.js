@@ -1,5 +1,5 @@
 import Header from "./common/header.js";
-import pdf from '../assets/pdf/Killian_MER__CV.pdf';
+import pdf from '../assets/pdf/Killian_MER_CV.pdf';
 
 import { Component } from "react";
 
