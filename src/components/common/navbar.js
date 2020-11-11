@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 import { Link } from 'react-scroll'
 
-class Navbar extends Component{
+class Navbar extends Component {
     constructor(props) {
         super(props);
         this.state = {showMenu: false};
