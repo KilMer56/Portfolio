@@ -33,7 +33,7 @@ class MoreInfo extends Component {
                             <ul className="text-justify md:leading-10 text-grey-2 text-lg">
                                 <li className="mb-8 md:mb-0"><span className="font-bold">Programming (experienced)</span> : Java, Node.js, Typescript, Javascript, Vue.Js, Salesforce languages (Apex, Lightning)</li>
                                 <li className="mb-8 md:mb-0"><span className="font-bold">Programming (knowledge)</span>  : Python, Docker, GCP, Flutter, PHP, MySQL, MongoDB, Symfony, ElasticSearch, Hadoop</li>
-                                <li><span className="font-bold">Other</span>  : Video Editing, Graphic Design, Photography, Breakdance, Chess</li>
+                                <li><span className="font-bold">Other</span>  : Video Editing, Graphic Design, Photography, Breakdance, Entrepreneurship</li>
                             </ul>
                         </div>
                     </div>
