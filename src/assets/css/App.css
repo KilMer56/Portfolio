@@ -14,6 +14,15 @@ html, .b-color {
   .p-big {
     padding: 10rem 0;
   }
+  
+  .bullet::before {
+    content: "\2022";
+    font-weight: 900;
+    font-size: 30px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.70em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -53,15 +62,6 @@ html, .b-color {
 
 .bullet {
   display: flex;
-}
-
-.bullet::before {
-  content: "\2022";
-  font-weight: 900;
-  font-size: 30px;
-  display: inline-block;
-  width: 1em;
-  margin-left: -0.70em;
 }
 
 .bullet-teal::before {
