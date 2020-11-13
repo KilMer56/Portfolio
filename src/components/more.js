@@ -13,10 +13,10 @@ class MoreInfo extends Component {
                         <div className="flex flex-col lg:flex-row">
                             <div className="lg:mr-16 mb-8 lg:mb-0">
                                 <h4 className="text-3xl font-bold mb-4">Personal interests</h4>
-                                <ul className="md:leading-10 text-grey-2 text-lg pl-5">
-                                    <li className="bullet bullet-teal">Led the communication department of the Sports Office of the School</li>
-                                    <li className="bullet bullet-purple">Designed the visual identity of the Galaorganized by the School</li>
-                                    <li className="bullet bullet-pink">Belonged to the Students Union office in 2017</li>
+                                <ul className="md:leading-10 text-grey-2 text-lg md:pl-5">
+                                    <li className="md:bullet md:bullet-teal">Led the communication department of the Sports Office of the School</li>
+                                    <li className="md:bullet md:bullet-purple">Designed the visual identity of the Galaorganized by the School</li>
+                                    <li className="md:bullet md:bullet-pink">Belonged to the Students Union office in 2017</li>
                                 </ul>
                             </div>
                             <div>
