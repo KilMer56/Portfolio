@@ -5,7 +5,7 @@
             "dates": "Present",
             "type": "Personal",
             "link": "https://github.com/KilMer56/POC-HabitTracker",
-            "description": "Proof Of Concept for a mobile app project around self-development",
+            "description": "Proof Of Concept for a future app project around self-development",
             "technologies": [
                 "Vue.js",
                 "Nest.js",
