@@ -1,13 +1,15 @@
 {
     "big": [
         {
-            "title": "Community Challenge App",
+            "title": "Habit Tracker",
             "dates": "Present",
             "type": "Personal",
-            "description": "Mobile app based on a community system around self-improvement",
+            "description": "Proof Of Concept for a mobile app project around self-development",
             "technologies": [
-                "Flutter",
-                "Firebase (GCP)"
+                "Vue.js",
+                "Nest.js",
+                "JWT",
+                "MongoDB"
             ]
         },
         {
@@ -48,17 +50,6 @@
             ]
         },
         {
-            "title": "Youtube/Spotify bridge",
-            "dates": "04/2019",
-            "type": "Personal",
-            "link": "https://github.com/KilMer56/YoutubeSpotifyBridge",
-            "description": "Script that converts a Youtube video playlist into a Spotify music playlist",
-            "technologies": [
-                "Python",
-                "Docker"
-            ]
-        },
-        {
             "title": "Discord Bot",
             "dates": "03/2019",
             "type": "Personal",
@@ -67,6 +58,17 @@
             "technologies": [
                 "Typescript",
                 "Node.js"
+            ]
+        },
+        {
+            "title": "Youtube/Spotify bridge",
+            "dates": "04/2019",
+            "type": "Personal",
+            "link": "https://github.com/KilMer56/YoutubeSpotifyBridge",
+            "description": "Script that converts a Youtube video playlist into a Spotify music playlist",
+            "technologies": [
+                "Python",
+                "Docker"
             ]
         }
     ],
