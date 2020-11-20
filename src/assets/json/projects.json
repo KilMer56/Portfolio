@@ -4,6 +4,7 @@
             "title": "Habit Tracker",
             "dates": "Present",
             "type": "Personal",
+            "link": "https://github.com/KilMer56/POC-HabitTracker",
             "description": "Proof Of Concept for a mobile app project around self-development",
             "technologies": [
                 "Vue.js",
@@ -16,6 +17,7 @@
             "title": "Edge Computing research project",
             "dates": "11/2019",
             "type": "IMT Atlantique",
+            "link": "https://github.com/KilMer56/IMT-Sniffit",
             "description": "Network TCP/UDP packets sniffing and analysis around Fog computing",
             "technologies": [
                 "Python",
